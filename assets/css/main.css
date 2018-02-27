@@ -1,0 +1,269 @@
+@font-face {
+    font-family: 'FuturisLight';
+    src: url('../fonts/FuturaLight/FuturaFuturisLightC.ttf');
+}
+@font-face {
+    font-family: 'FuturisXC';
+    src: url('../fonts/FuturaXC/FuturisXC.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: FuturisLight;
+    font-size: 18px;
+}
+
+a {
+    color: #747370;
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.shrink {
+    flex-shrink: 0;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.aic {
+    align-items: center;
+}
+
+.fdc {
+    flex-direction: column;
+}
+
+.fdcr {
+    flex-direction: column-reverse;
+}
+
+.fdfe {
+    flex-direction: flex-end;
+}
+
+.wrapper {
+    max-width: 1138px;
+    margin: 0 auto;
+}
+
+.header__info {
+    padding: 53px 23px 0 23px;
+}
+
+.title__descr {
+    color: #000;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.title__text {
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #747370;
+    padding-top: 10px;
+}
+
+.header__navs {
+    padding: 20px 0 40px 0;
+}
+
+.navs__item {
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-right: 26px;
+}
+.navs__item:last-child {
+    margin-right: 0;
+}
+
+.content__image {
+    padding: 60px 40px 52px 126px;
+}
+
+.content__title {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    max-width: 280px;
+    font-family: 'FuturisXC';
+}
+
+.content__more a {
+    color: #fff;
+    font-size: 13px;
+}
+
+.content__movie {
+    max-width: 290px;
+}
+
+.content__movie {
+    color: #fff;
+}
+
+.movie__watchs {
+    font-size: 10px;
+    height: 10px;
+}
+
+.movie__icon {
+
+    margin-right: 25px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #fff;
+}
+
+.movie__name {
+    font-size: 23px;
+    padding: 13px 0;
+    text-transform: uppercase;
+}
+
+.movie__item {
+    padding-bottom: 20px;
+}
+.movie__item:last-child {
+    padding-bottom: 0;
+}
+
+.footer {
+    padding: 60px 60px 50px 60px;
+}
+
+.footer__icon {
+    margin-bottom: 24px;
+}
+
+.footer__logo {
+    margin-right: 116px;
+}
+
+.footer__descr {
+    max-width: 55px;
+    font-size: 15px;
+    color: #000;
+    letter-spacing: 0.23px;
+    text-transform: uppercase;
+    line-height: 23.99px;
+}
+
+.footer__info a {
+    color: #fff;
+}
+
+.footer__link {
+    font-size: 9px;
+    text-transform: uppercase;
+    line-height: 18.15px;
+    letter-spacing: 0.61px;
+}
+
+.footer__contacts {
+    font-size: 25px;
+    color: #fff;
+}
+
+.footer__contacts-phone {
+    margin-right: 20px;
+}
+
+.footer__contacts-mail {
+    margin-left: 20px;
+}
+
+.social__item {
+    width: 36px;
+    height: 36px;
+    margin-right: 6px;
+}
+
+.team__lead {
+    padding-top: 40px;
+}
+
+.teamlead__textItem {
+    padding: 20px 0 30px 0;
+}
+
+.teamlead__descr {
+    color: #6b6966;
+    padding-bottom: 30px;
+}
+
+.tealead__line-icon {
+    width: 100%;
+    max-width: 478px;
+    height: 2px;
+    background: #00ce00;
+}
+
+.main__title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.poster__item {
+    background: #00e137;
+    max-width: 212px;
+    width: 100%;
+}
+
+.poster__header {
+    color: #fff;
+    padding: 6px 0 0 40px;
+}
+
+.poster__header-data {
+    font-size: 44px;
+}
+
+.poster__header-month {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.poster__header-time {
+    font-size: 20px;
+}
+
+.poster__image-descr {
+    color: #fff;
+    font-size: 15px;
+    background: #00e137;
+    padding: 5px 10px;
+    max-width: 110px;
+    text-transform: uppercase;    
+}
+
+.poster__image {
+    height: 132px;
+}
+
+.poster__name {
+    background: #fff;
+}
+
+.poster__name-item  {
+    text-transform: uppercase;
+    color: #6f6f6f;
+    font-size: 30px;
+    padding: 30px 0;
+}
+
+.poster__more a {
+    font-size: 13px;
+    color: #fff;
+    padding: 10px 0;
+}
